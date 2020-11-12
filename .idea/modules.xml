@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/stepic_auto_test_python.iml" filepath="$PROJECT_DIR$/.idea/stepic_auto_test_python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/stepik_auto_test_python.iml" filepath="$PROJECT_DIR$/.idea/stepik_auto_test_python.iml" />
     </modules>
   </component>
 </project>
