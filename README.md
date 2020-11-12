@@ -1,4 +1,4 @@
-# stepic_auto_test_python
+# stepik_auto_test_python
 Course about autotests on python
 
 Create some changes in this file
