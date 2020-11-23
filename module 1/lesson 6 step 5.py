@@ -19,7 +19,7 @@ try:
     input3.send_keys("Novosibirsk")
     input4 = browser.find_element_by_id("country")
     input4.send_keys("Russia")
-    # получение кода
+    # получение кода.
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
     time.sleep(20)

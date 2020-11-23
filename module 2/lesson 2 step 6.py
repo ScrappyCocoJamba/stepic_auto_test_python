@@ -15,7 +15,7 @@ try:
     x = x_value.text
     y = calc(x)
 
-    # вставляю полученное значение в поле
+    # вставляю полученное значение в поле.
     input1 = browser.find_element_by_css_selector('#answer')
     input1.send_keys(y)
 

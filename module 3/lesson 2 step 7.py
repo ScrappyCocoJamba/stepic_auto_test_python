@@ -15,7 +15,7 @@ print("{} Let's count together: {}, then goes {}, and then {}. Created by {} {}"
       .format(">>>>>>", "one", "two", "three", "ScrappyCoco", "<<<<<<"))
 
 
-# f-strings
+# f-strings.
 str1 = "one"
 str2 = "two"
 str3 = "three"

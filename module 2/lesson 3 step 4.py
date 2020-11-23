@@ -11,7 +11,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    # Нажимаем кнопку
+    # Нажимаем кнопку.
     button = browser.find_element_by_css_selector(".btn")
     button.click()
 

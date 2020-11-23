@@ -20,7 +20,7 @@ index = s.find('Name')
 if index != -1:
     print(f'Substring found at index {index}')
 
-#  assert "login" in browser.current_url, # сообщение об ошибке
+#  assert "login" in browser.current_url, # сообщение об ошибке.
 
 
 def test_substring(full_string, substring):

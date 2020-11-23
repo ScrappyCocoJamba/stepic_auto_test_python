@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 
+
 browser = webdriver.Chrome()
 link = "https://SunInJuly.github.io/execute_script.html"
 browser.get(link)

@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-# тест падает из-за задержки при появлении кнопки
+# тест падает из-за задержки при появлении кнопки.
 browser = webdriver.Chrome()
 browser.get("http://suninjuly.github.io/wait1.html")
 

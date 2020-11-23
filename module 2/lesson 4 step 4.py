@@ -6,7 +6,7 @@ try:
     browser = webdriver.Chrome()
     browser.get("http://suninjuly.github.io/wait1.html")
 
-    # задержка перед выполнением проверки на наличие кнопки
+    # задержка перед выполнением проверки на наличие кнопки.
     time.sleep(1)
     button = browser.find_element_by_id("verify")
     button.click()

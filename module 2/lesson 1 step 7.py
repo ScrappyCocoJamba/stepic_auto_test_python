@@ -10,7 +10,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    # вытаскиваю значение X из текста и произвожу математическое вычисление
+    # вытаскиваю значение X из текста и произвожу математическое вычисление.
     x_treasure = browser.find_element_by_css_selector('#treasure')
     x = x_treasure.get_attribute('valuex')
     y = calc(x)

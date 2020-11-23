@@ -4,7 +4,7 @@ import time
 # тест падает из-за задержки при появлении кнопки
 browser = webdriver.Chrome()
 
-# говорим WebDriver искать каждый элемент в течение 5 секунд
+# говорим WebDriver искать каждый элемент в течение 5 секунд.
 browser.implicitly_wait(5)
 
 browser.get("http://suninjuly.github.io/wait1.html")

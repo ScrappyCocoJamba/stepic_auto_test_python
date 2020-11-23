@@ -16,7 +16,7 @@ try:
     input3 = browser.find_element_by_css_selector(".first_block .third")
     input3.send_keys("mailcorporat")
 
-    # Отправляем заполненную форму
+    # Отправляем заполненную форму.
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
 

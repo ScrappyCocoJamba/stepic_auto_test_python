@@ -9,7 +9,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    # найти сумму двух числе из текста
+    # найти сумму двух числе из текста.
     number1 = browser.find_element_by_css_selector('#num1')
     number1_value = number1.text
     number2 = browser.find_element_by_css_selector('#num2')
